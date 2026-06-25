@@ -1,70 +1,213 @@
-# Windows & Linux Administration Lab
+# Enterprise Systems Administration Lab
 
 ## Overview
 
-This project demonstrates hands-on system administration skills using Windows Server 2022, Ubuntu Server, Rocky Linux, and Windows 10 in a virtualized VMware environment.
+This repository documents the design, deployment, administration, and troubleshooting of a multi-platform enterprise lab environment built in VMware Workstation.
 
-The lab simulates a small business infrastructure and focuses on:
+The objective of this project is to develop and demonstrate practical skills used by IT Support Technicians, Desktop Support Specialists, System Administrators, and Infrastructure Analysts in a business environment.
 
-* Active Directory Administration
-* DNS Management
-* DHCP Services
-* Group Policy Management
-* User and Group Administration
-* Linux Administration
-* SSH Management
-* Apache Web Server
-* Nginx Web Server
-* File Permissions
-* Troubleshooting
-* Documentation
+The lab simulates a small organization with centralized identity management, Windows and Linux servers, workstation administration, network services, file sharing, security controls, and system troubleshooting.
 
-## Environment
+---
 
-### Virtualization
+## Infrastructure
+
+### Virtualization Platform
 
 * VMware Workstation
 
-### Systems
+### Windows Environment
 
-* Windows Server 2022 (Domain Controller)
-* Windows 10 Client
+* Windows Server 2022
+* Active Directory Domain Services (AD DS)
+* DNS
+* DHCP
+* Group Policy Management
+* File Services
+
+### Linux Environment
+
 * Ubuntu Server 24.04
 * Rocky Linux 9
+* OpenSSH
+* Apache Web Server
+* Nginx Web Server
+* Systemd Service Management
 
-### Domain
+### Client Environment
 
-LORO.local
+* Windows 10 Enterprise
+* Domain Authentication
+* User Testing
+* Policy Validation
+
+---
+
+## Domain Information
+
+```text
+Domain Name: LORO.local
+
+Domain Controller: DC-01
+
+Server IP: 192.168.50.10
+```
+
+---
+
+## Active Directory Administration
+
+### Identity Management
+
+* User Account Creation
+* Password Management
+* Account Lockout Management
+* Group Administration
+* Organizational Unit Administration
+
+### Infrastructure Services
+
+* DNS Administration
+* DHCP Administration
+* File Sharing
+* Group Policy Management
+
+### Security Controls
+
+* Password Policies
+* Account Lockout Policies
+* Administrative Delegation
+* Access Control
+
+---
+
+## Linux Administration
+
+### User and Group Administration
+
+* User Creation
+* Group Creation
+* Group Membership Management
+* Privilege Delegation
+
+### File System Administration
+
+* Ownership Management
+* Access Control
+* File Permissions
+* Shared Directories
+
+### Service Management
+
+* Systemd
+* Service Monitoring
+* Service Recovery
+* Startup Configuration
+
+### Remote Administration
+
+* SSH Configuration
+* Secure Remote Access
+* Key-Based Authentication
+
+---
+
+## Networking
+
+### Core Services
+
+* TCP/IP
+* DNS Resolution
+* DHCP
+* Routing Verification
+
+### Troubleshooting
+
+* Connectivity Testing
+* Name Resolution Testing
+* Service Verification
+* Log Analysis
+
+---
+
+## Project Documentation
+
+### Active Directory
+
+* Server Audit
+* OU Structure
+* User Management
+* Group Management
+* DNS Configuration
+* DHCP Configuration
+* Group Policy Configuration
+
+### Ubuntu Server
+
+* User Administration
+* SSH Administration
+* Apache Administration
+* Permissions Management
+* Troubleshooting
+
+### Rocky Linux
+
+* User Administration
+* DNF Package Management
+* Nginx Administration
+* Log Analysis
+* Troubleshooting
+
+---
 
 ## Skills Demonstrated
+
+### IT Support
+
+* Technical Troubleshooting
+* User Support
+* Account Administration
+* Documentation
+* Incident Resolution
 
 ### Windows Administration
 
 * Active Directory
 * DNS
+* DHCP
 * Group Policy
-* User Management
-* Group Management
+* File Services
 
 ### Linux Administration
 
-* User Administration
-* Group Administration
-* File Permissions
+* Ubuntu
+* Rocky Linux
 * SSH
-* Service Management
+* Apache
+* Nginx
+* Systemd
 
 ### Networking
 
 * TCP/IP
 * DNS
 * DHCP
-* Connectivity Troubleshooting
+* Network Troubleshooting
+
+---
+
+## Certifications
+
+* CompTIA Security+
+* Fortinet NSE 3
+* Cisco CCNA (In Progress)
+
+---
 
 ## Author
 
 Israel Loyo
 
-CompTIA Security+
+IT Support | Desktop Support | System Administration
 
-Cisco CCNA Candidate
+Montreal, Quebec
