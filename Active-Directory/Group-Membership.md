@@ -24,3 +24,19 @@ Implement Role-Based Access Control (RBAC) by assigning user accounts to departm
 All employee accounts were assigned to the appropriate departmental Global Security Group.
 
 Permissions will be assigned to groups rather than directly to users.
+
+
+
+## Screenshoots
+
+
+![alt text](07.Global_Groups.png)
+
+![alt text](<08-1 GG_IT_Users.png>)
+
+![alt text](<08-2 GG_HR_Users.png>)
+
+![alt text](<08-3 GG_Finance_Users.png>)
+
+
+
